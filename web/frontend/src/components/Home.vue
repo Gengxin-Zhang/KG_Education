@@ -1,0 +1,34 @@
+<template>
+    <div class="kg-container">
+        <div class="content markdown">
+          <h1>KG_Education <small>专注于K-12阶段自适应教育的知识图谱</small></h1>
+          <hr>
+          <p>教育是一个永恒的命题，有人类社会的地方就会教育行业。人类社会正在长此以往的稳定发展，教育关系着一代代人们的文化传承。而随着科技的飞速发展，物质水平和技术水平的提高，传统模式的“照本宣科”、“标准化教学”存在难以逾越的难题：针对群体的“模式化”教育会忽略个体差异，使得实施教育的结果并不理想。教育行业迫切需要一种有效而又节省人力物力资源的解决方案，于是自适应教育的概念被提出。
+本项目旨在将自适应教育和知识图谱相结合，通过构建迎合 K-12 年龄段学生课标标准的知识图谱，并基于图谱开发在线教育相关 web 应用，为面向 K-12 学生的自适应教育提供全新的解决方案。</p>
+          <p></p>
+        </div>
+    </div>
+    
+</template>
+
+<script>
+import ImageScroll from "./ImageScroll.vue";
+export default {
+  name: "home",
+  components: {
+    ImageScroll
+  },
+  data() {
+    return {
+      images: [{ src: "", text: "" }]
+    };
+  },
+  created() {
+    document.title = "KG_Education"
+  },
+};
+</script>
+
+<style lang="scss">
+@import "../assets/style/views.scss";
+</style>

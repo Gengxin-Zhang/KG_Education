@@ -1,0 +1,70 @@
+﻿<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-01-30">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer"></attribute>
+    </attributes>
+        <nodes>
+          <node id="1"label="自然"></node>
+          <node id="2"label="科学"></node>
+          <node id="3"label="社会科学"></node>
+          <node id="4"label="社会学"></node>
+          <node id="5"label="经济学"></node>
+          <node id="6"label="心理学"></node>
+          <node id="7"label="人类学"></node>
+          <node id="8"label="政治学"></node>
+          <node id="9"label="社会"></node>
+          <node id="10"label="知识"></node>
+          <node id="11"label="数据"></node>
+          <node id="12"label="自然科学"></node>
+          <node id="13"label="物理学"></node>
+          <node id="14"label="生物学"></node>
+          <node id="15"label="空间科学"></node>
+          <node id="16"label="生物化学"></node>
+          <node id="17"label="地球科学"></node>
+          <node id="18"label="科学方法"></node>
+          <node id="19"label="方法"></node>
+          <node id="20"label="研究"></node>
+          <node id="21"label="历史"></node>
+          <node id="22"label="信史"></node>
+          <node id="23"label="数学"></node>
+          <node id="24"label="概率论"></node>
+          <node id="25"label="图论"></node>
+          <node id="26"label="数学史"></node>
+          <node id="27"label="几何学"></node>
+          <node id="28"label="代数"></node>
+          <node id="29"label="数论"></node>
+          <node id="30"label="拓扑学"></node>
+          <node id="31"label="数学家"></node>
+          <node id="32"label="集合论"></node>
+          <node id="33"label="学科"></node>
+          <node id="34"label="微积分学"></node>
+          <node id="35"label="范畴论"></node>
+          <node id="36"label="理论"></node>
+          <node id="37"label="概念"></node>
+          <node id="38"label="计算机科学"></node>
+          <node id="39"label="电子计算机"></node>
+          <node id="40"label="计算"></node>
+          <node id="41"label="人工智能"></node>
+          <node id="42"label="图"></node>
+          <node id="43"label="顶点"></node>
+          <node id="44"label="伯爵"></node>
+          <node id="45"label="数学理论"></node>
+          <node id="46"label="物理"></node>
+          <node id="47"label="物理学家"></node>
+          <node id="48"label="医生"></node>
+          <node id="49"label="医学"></node>
+        </nodes>
+        <edges>
+          <edge id="1" source="1"  target="2"></edge>
+          <edge id="2" source="2"  target="3"></edge>
+          <edge id="3" source="3"  target="2"></edge>
+          <edge id="4" source="3"  target="4"></edge>
+          <edge id="5" source="3"  target="5"></edge>
+          <edge id="6" source="3"  target="6"></edge>
+          <edge id="7" source="3"  target="7"></edge><edge id="8" source="3"  target="8"></edge><edge id="9" source="3"  target="9"></edge><edge id="10" source="2"  target="10"></edge><edge id="11" source="10"  target="11"></edge><edge id="12" source="2"  target="12"></edge><edge id="13" source="12"  target="2"></edge><edge id="14" source="12"  target="13"></edge><edge id="15" source="12"  target="1"></edge><edge id="16" source="12"  target="14"></edge><edge id="17" source="12"  target="15"></edge><edge id="18" source="12"  target="16"></edge><edge id="19" source="12"  target="17"></edge><edge id="20" source="2"  target="18"></edge><edge id="21" source="18"  target="2"></edge><edge id="22" source="18"  target="19"></edge><edge id="23" source="18"  target="20"></edge><edge id="24" source="21"  target="10"></edge><edge id="25" source="11"  target="10"></edge><edge id="26" source="21"  target="22"></edge><edge id="27" source="22"  target="21"></edge><edge id="28" source="22"  target="21"></edge><edge id="29" source="23"  target="24"></edge><edge id="30" source="24"  target="23"></edge><edge id="31" source="23"  target="25"></edge><edge id="32" source="23"  target="26"></edge><edge id="33" source="23"  target="27"></edge><edge id="34" source="23"  target="28"></edge><edge id="35" source="23"  target="29"></edge><edge id="36" source="23"  target="30"></edge><edge id="37" source="23"  target="31"></edge><edge id="38" source="23"  target="32"></edge><edge id="39" source="23"  target="33"></edge><edge id="40" source="23"  target="34"></edge><edge id="41" source="23"  target="35"></edge><edge id="42" source="25"  target="36"></edge><edge id="43" source="36"  target="37"></edge><edge id="44" source="25"  target="38"></edge><edge id="45" source="38"  target="39"></edge><edge id="46" source="38"  target="40"></edge><edge id="47" source="38"  target="41"></edge><edge id="48" source="38"  target="33"></edge><edge id="49" source="25"  target="42"></edge><edge id="50" source="42"  target="25"></edge><edge id="51" source="42"  target="38"></edge><edge id="52" source="42"  target="37"></edge><edge id="53" source="42"  target="25"></edge><edge id="54" source="42"  target="25"></edge><edge id="55" source="42"  target="43"></edge><edge id="56" source="42"  target="23"></edge><edge id="57" source="42"  target="44"></edge><edge id="58" source="26"  target="23"></edge><edge id="59" source="28"  target="23"></edge><edge id="60" source="29"  target="23"></edge><edge id="61" source="29"  target="23"></edge><edge id="62" source="31"  target="23"></edge><edge id="63" source="32"  target="45"></edge><edge id="64" source="45"  target="36"></edge><edge id="65" source="45"  target="23"></edge><edge id="66" source="35"  target="23"></edge><edge id="67" source="46"  target="47"></edge><edge id="68" source="47"  target="48"></edge><edge id="69" source="48"  target="47"></edge><edge id="70" source="48"  target="49"></edge></edges>
+  </graph>
+</gexf>
